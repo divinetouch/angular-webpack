@@ -1,4 +1,6 @@
 /node_modules
+/bower_components
 *.swp
 /.idea
-/dist/**/*.js
+/dist/*
+!/dist/index.html

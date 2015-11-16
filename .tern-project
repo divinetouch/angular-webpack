@@ -1,0 +1,14 @@
+{
+    "libs": [
+        "browser",
+        "jquery"
+    ],
+    "loadEagerly": [
+        "./node_modules/angular/angular.js",
+        "./app/**/*.js"
+    ],
+    "plugins": {
+        "node": {},
+        "jquery": {}
+    }
+}

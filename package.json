@@ -2,9 +2,10 @@
   "name": "angular-webpack",
   "version": "0.0.1",
   "description": "angular webpack boilerplate",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/.bin/webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,27 @@
   "bugs": {
     "url": "https://github.com/divinetouch/angular-webpack/issues"
   },
-  "homepage": "https://github.com/divinetouch/angular-webpack#readme"
+  "homepage": "https://github.com/divinetouch/angular-webpack#readme",
+  "devDependencies": {
+    "babel-loader": "^5.4.0",
+    "css-loader": "^0.23.0",
+    "file-loader": "^0.8.4",
+    "hammerjs": "^2.0.4",
+    "ng-annotate-loader": "0.0.10",
+    "node-sass": "^3.4.2",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^3.1.1",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.6",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "dependencies": {
+    "angular": "^1.4.7",
+    "angular-cookies": "^1.4.7",
+    "angular-ui-router": "^0.2.15",
+    "bootstrap": "^3.3.5",
+    "jquery": "^2.1.4"
+  }
 }

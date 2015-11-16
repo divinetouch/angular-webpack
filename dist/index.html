@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <base href="/">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Angular Webpack Boilerplate</title>
+    </head>
+    <body ng-app="app" class="container">
+        <navigation-bar-widget></navigation-bar-widget>
+        <div id="app-content" ui-view></div>
+        <script src="js/bundle.js"></script>
+        <script>
+            $(function() {
+                //materialize-css dropdown and side nav
+                $('.dropdown-button').dropdown();
+                $('.button-collapse').sideNav();
+                
+                // trigger hide side nav
+                $('ul#mobile li').on('click', function() {
+                    $('#sidenav-overlay').trigger('click');
+                });
+            });
+        </script>
+    </body>
+</html>

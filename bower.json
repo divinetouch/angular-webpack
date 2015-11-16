@@ -1,0 +1,25 @@
+{
+  "name": "angular-webpack",
+  "version": "0.0.1",
+  "homepage": "https://github.com/divinetouch/angular-webpack",
+  "authors": [
+    "Divine Touch <divine.touch07@gmail.com>"
+  ],
+  "description": "angular webpack boilerplate",
+  "keywords": [
+    "angular",
+    "webpack",
+    "boilerplate"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.2"
+  }
+}
