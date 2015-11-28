@@ -6,7 +6,7 @@ This boilerplate uses angular version 1.4.X, ECMASCRIPT 2016 (ES6), Materialize 
 
 ---
 
-# Boilerplate structor
+# Boilerplate structure
 
 The project separate into 6 main parts:
 
