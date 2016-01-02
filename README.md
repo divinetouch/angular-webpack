@@ -2,7 +2,7 @@
 
 This is a simple angular-webpack boilerplate that can be used as a quick prototype without having to set everything up frome scratch everytime. 
 
-This boilerplate uses angular version 1.4.X, ECMASCRIPT 2016 (ES6), Materialize CSS, and Webpack as the module bundler.
+This boilerplate uses angular version 1.4.X, ECMASCRIPT 2015 (ES6), Materialize CSS, and Webpack as the module bundler.
 
 ---
 
